@@ -1,30 +1,30 @@
 /*fonts*/
 @font-face {
   font-family: "Aleo-Bold";
-  src: url("ressources/font/Aleo-Bold.otf");
+  src: url("css/font/Aleo-Bold.otf");
 }
 
 @font-face {
   font-family: "Aleo-Regular";
-  src: url("ressources/font/Aleo-Regular.otf");
+  src: url("css/font/Aleo-Regular.otf");
 }
 
 @font-face {
   font-family: Source Sans Pro;
-  src: url(../ressources/font/SourceSansPro-Regular.ttf);
+  src: url(../css/font/SourceSansPro-Regular.ttf);
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Source Sans Pro;
-  src: url(../ressources/font/SourceSansPro-Bold.ttf);
+  src: url(../css/font/SourceSansPro-Bold.ttf);
   font-weight: bold;
 }
 
 @font-face {
   font-family: Source Sans Pro;
-  src: url(../ressources/font/SourceSansPro-Italic.ttf);
+  src: url(../css/font/SourceSansPro-Italic.ttf);
   font-style: italic;
 }
 
@@ -200,7 +200,7 @@ p, span, li{
   margin: 2px;
   display: block;
   font-style: italic;
-  color : #BADA55;
+  color : #558000;
 }
 
 .course__txt--commentaire {
