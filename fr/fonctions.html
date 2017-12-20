@@ -30,6 +30,7 @@
             <li><a class="menu__title menu__title menu__title--current" href="fonctions.html#fonctions">Les fonctions</a></li>
             <li><a class="menu__subtitle" href="fonctions.html#caracteristique">Caractéristiques</a></li>
             <li><a class="menu__subtitle" href="fonctions.html#exemples">Exemples</a></li>
+            <li><a class="menu__subtitle" href="fonctions.html#boucles">Boucles</a></li>
           </ul>
         </nav>
       </header>
@@ -54,14 +55,36 @@
             <li>Peut contenir un ou plusieurs arguments, les arguments sont placés entre parenthèses,</li>
             <li>chaque argument possède un type et un nom établis lors de la définition de la fonction,</li>
             <li>Si la fonction a plusieurs arguments, ceux-ci sont séparés par des virgules</li>
-        </article>
-        <article id="exemples" class="course">
-          <h3>Exemples</h3>
-          <p>La fonction afficher() affiche une chaîne de caractère. <span class="course__txt--exemple">exemple: afficher(bonjourEnAnglais)</span></p>
-          <p>La fonction convertirEnChaine() converti un entier ou un décimal en chaîne de caractère. <span class="course__txt--exemple">exemple: afficher(«Mon numéro de téléphone ».convertirEnChaine(numeroDeTelephone))</p>
+          </article>
+          <article id="exemples" class="course">
+            <h3>Exemples</h3>
+            <p>La fonction afficher() affiche une chaîne de caractère. <span class="course__txt--exemple">exemple: afficher(bonjourEnAnglais)</span></p>
+            <p>La fonction convertirEnChaine() converti un entier ou un décimal en chaîne de caractère. <span class="course__txt--exemple">exemple: afficher(«Mon numéro de téléphone ».convertirEnChaine(numeroDeTelephone))</p>
             </article>
+            <article id="boucles" class="course">
+              <h3>Boucles</h3>
+              <p>Les boucles sont pour la plupart du temps placées dans des fonctions, elles permettent de répéter une instruction un certain nombre de fois et sont composées de 3 arguments</p>
+              <ul>
+                <li> L'initialisation, c'est ici qu'on initialie/déclare la variable intermédiaire qui comptera le nombre de répétitions de la boucle</li>
+                <li> La condition, c'est un booléen qui indiquera le nombre de fois que la boule devra se répéter</li>
+                <li> L'itération, c'est ici qu'on incrémentera/décrémentera la variable intermédiaire initialisée</li>
+              </ul>
+              <p>Il existe plusieurs types de boucles</p>
+              <h4>La boucle "Tant Que"</h4>
+              <p>Cette boucle se répéte tant que la condition est vraie, l'initialisation s'y fait en dehors de la boucle, dans la déclaration des variables, la condition à l'intérieur de la boucle et l'itération dans les instructions</p>
+              <span class="course__txt--exemple">exemple: <br>Fonction Decompte(entier max)<br>:revoie rien<br>entier i ← max<br>Tant Que (i >= 0)<br>i ← i - 1<br>FinTantQue<br>FinFonction<br></span>
+              <p>Cette fonction effectue un décompte jusqu'a 0 en partant d'un chiffre donné.</p>
+              <ul>
+                <li>Pour notre boucle, on initialise tout d'abbord l'entier 'i' en lui affectant 'max', disons que max vaut 10.</li>
+                <li>Sa condition est 'i >= 0', 'i' vaut 'max' qui vaut 10, tant que i est supérieur ou égal à 0 la boucle continuera</li>
+                <li>Dans ses instructions, on décrémente de 1 à chaque tour de boucle, donc en dix tours, 'i' vaudra 0</li>
+              </ul>
+
+
+
+              </article>
             </section>
           </main>
         </div>
       </body>
-    </html>
+      </html>
